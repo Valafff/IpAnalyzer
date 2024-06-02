@@ -19,8 +19,6 @@ static void Main(string[] args)
 		{
 			if (options.AdrrStart != null && options.AdrrMask == null)
 			{
-				//Console.WriteLine($"Значение аргумента 'address-start': {options.AdrrStart}");
-				//Console.WriteLine($"Значение аргумента 'address-mask': не задано");
 				addressStartSearch = options.AdrrStart;
 			}
 			else if (options.AdrrStart == null && options.AdrrMask != null)
@@ -30,21 +28,14 @@ static void Main(string[] args)
 			}
 			else
 			{
-				//Console.WriteLine($"Значение аргумента 'address-start': {options.AdrrStart}");
-				//Console.WriteLine($"Значение аргумента 'address-mask': {options.AdrrMask}");
 				addressStartSearch = options.AdrrStart;
 				maskSearch = options.AdrrMask;
 			}
-
-			//Console.WriteLine($"Значение аргумента 'file-log': {options.FLog}");
 			fileLogPath = options.FLog;
 
-			//Console.WriteLine($"Значение аргумента 'file-output': {options.FOut}");
 			fileOutputPath = options.FOut;
 
-			//Console.WriteLine($"Значение аргумента 'time-start': {options.TimeStart}");
 			startTime = Convert.ToDateTime(options.TimeStart);
-			//Console.WriteLine($"Значение аргумента 'time-end': {options.TimeEnd}");
 			endTime = Convert.ToDateTime(options.TimeEnd);
 		}
 		catch

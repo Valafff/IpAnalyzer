@@ -3,13 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{8BD64755-B014-4317-976E-E3A637FCF8C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IpAnalyzer", "IpAnalyzer\IpAnalyzer.csproj", "{DDBBBF8D-12C9-4F00-ABF5-5E80D8CBAFA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp.NET", "TestApp.NET\TestApp.NET.csproj", "{DFD67F18-0580-4063-B9A1-3028E0066A46}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IpAnalyzer", "IpAnalyzer\IpAnalyzer.csproj", "{DDBBBF8D-12C9-4F00-ABF5-5E80D8CBAFA8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IpGenerator", "IpGenerator\IpGenerator.csproj", "{BA633C2D-6FD4-43B4-A015-AF2E870B949A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IpGenerator", "IpGenerator\IpGenerator.csproj", "{BA633C2D-6FD4-43B4-A015-AF2E870B949A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8BD64755-B014-4317-976E-E3A637FCF8C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8BD64755-B014-4317-976E-E3A637FCF8C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8BD64755-B014-4317-976E-E3A637FCF8C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8BD64755-B014-4317-976E-E3A637FCF8C4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DFD67F18-0580-4063-B9A1-3028E0066A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DFD67F18-0580-4063-B9A1-3028E0066A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DFD67F18-0580-4063-B9A1-3028E0066A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DFD67F18-0580-4063-B9A1-3028E0066A46}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DDBBBF8D-12C9-4F00-ABF5-5E80D8CBAFA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DDBBBF8D-12C9-4F00-ABF5-5E80D8CBAFA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDBBBF8D-12C9-4F00-ABF5-5E80D8CBAFA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
